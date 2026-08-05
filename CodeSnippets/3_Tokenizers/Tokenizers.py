@@ -22,3 +22,13 @@ print("\n\n" + str(ids))
 
 """Saída:
 [7993, 170, 11303, 1200, 2443, 1110, 3014]"""
+
+# Decoding
+# Decoding is going the other way around: from vocabulary indices, we want to get a string.
+# This can be done with the decode() method.
+
+decoded_string = tokenizer.decode([7993, 170, 11303, 1200, 2443, 1110, 3014, 1111])
+print("\n\n" + str(decoded_string))                  #Adicionei o 1111 só pra testar
+
+"""Saída:
+'Using a Transformer network is simple'"""
