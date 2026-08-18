@@ -1,0 +1,58 @@
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+
+# ===== Jupyter / Notebooks =====
+.ipynb_checkpoints/
+
+# ===== Hugging Face / ML =====
+.cache/
+**/cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+huggingface_hub_cache/
+wandb/
+runs/
+outputs/
+checkpoints/
+
+# ===== Ambientes / segredos =====
+.env
+.env.local
+*.key
+config.json.local
+
+# ===== Editores =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Arquivos do iWork (Pages, Numbers, Keynote) =====
+*.pages
+
+# ===== Outros temporários =====
+*.log
+*.tmp
